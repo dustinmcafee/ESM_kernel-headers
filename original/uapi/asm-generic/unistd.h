@@ -715,9 +715,21 @@ __SYSCALL(__NR_userfaultfd, sys_userfaultfd)
 __SYSCALL(__NR_membarrier, sys_membarrier)
 #define __NR_mlock2 284
 __SYSCALL(__NR_mlock2, sys_mlock2)
+#define __NR_esm_register 285
+__SYSCALL(__NR_esm_register, sys_esm_register)
+#define __NR_esm_wait 286
+__SYSCALL(__NR_esm_wait, sys_esm_wait)
+#define __NR_esm_register1 287
+__SYSCALL(__NR_esm_register1, sys_esm_register1)
+#define __NR_esm_wait1 288
+__SYSCALL(__NR_esm_wait1, sys_esm_wait1)
+#define __NR_esm_ctl 289
+__SYSCALL(__NR_esm_ctl, sys_esm_ctl)
+#define __NR_esm_ctl1 290
+__SYSCALL(__NR_esm_ctl1, sys_esm_ctl1)
 
 #undef __NR_syscalls
-#define __NR_syscalls 285
+#define __NR_syscalls 291
 
 /*
  * All syscalls below here should go away really,

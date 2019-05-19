@@ -374,5 +374,11 @@
 #define __NR_userfaultfd 374
 #define __NR_membarrier 375
 #define __NR_mlock2 376
+#define __NR_esm_register 385
+#define __NR_esm_wait 386
+#define __NR_esm_register1 387
+#define __NR_esm_wait1 388
+#define __NR_esm_ctl 389
+#define __NR_esm_ctl1 390
 
 #endif /* _ASM_X86_UNISTD_32_H */
